@@ -1,0 +1,10 @@
+* E:\LTSpice\Draft4.asc for V1 active V(n004):	 2.12778	 voltage
+R1 N003 N002 100;
+R2 N004 N003 100;
+R3 N001 N004 330;
+R4 N003 0 330;
+R5 N004 0 330;
+R6 N005 0 330;
+V1 N002 0 5;
+V2 N001 N005 0;
+.op;

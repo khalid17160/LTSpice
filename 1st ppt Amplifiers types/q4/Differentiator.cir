@@ -1,0 +1,12 @@
+* E:\LTSpice\Upload\Differntiator_sch.asc
+XU1 0 N001 P001 P002 N002 AD8066;
+R2 N002 N001 1k;
+V1 P001 0 20;
+V2 0 P002 12;
+R3 N002 0 10k;
+V3 N003 0 SINE(0 5 500);
+C1 N001 N003 0.1µ;
+.tran 10m;
+.lib ADI.lib;
+.backanno;
+.end;
