@@ -1,0 +1,12 @@
+* E:\LTSpice\Ankit\Draft1.asc
+R1 vout N001 10
+V1 N001 0 SINE(0 10 100)
+D1 vout P001 D
+D2 P002 vout D
+V2 P001 0 8
+V3 0 P002 6
+.model D D
+.lib C:\Users\Khalid\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 100m
+.backanno
+.end

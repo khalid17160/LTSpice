@@ -1,0 +1,10 @@
+* E:\LTSpice\Upload_2_dead\cliper2\clamper.asc
+V1 N001 0 PULSE(20 -5 10 0 0 10 20 100)
+R1 vout N001 10
+D1 P001 vout D
+V2 P001 0 5
+.model D D
+.lib C:\Users\Khalid\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 100s
+.backanno
+.end
